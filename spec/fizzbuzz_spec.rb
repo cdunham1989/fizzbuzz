@@ -26,4 +26,12 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(0)).to eq 'fizzbuzz'
   end
 
+  it 'returns "28" when 28' do
+    expect(fizzbuzz(28)).to eq 28
+  end
+
+  it 'returns "1" when 1' do
+    expect(fizzbuzz(1)).to eq 1
+  end
+
 end
